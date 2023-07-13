@@ -51,7 +51,7 @@ $ git commit --amend
 # 4. :wq 를 입력해서 저장하고 종료한다.
 ```
 
-### git 설정 초기화
+### GIT 설정 초기화
 ```bash
 # vim을 활용해서 설정 제거하기
 # vim git 설정 파일 열기
