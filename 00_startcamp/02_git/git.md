@@ -61,3 +61,19 @@ $ vim ~/.gitconfig
 # esc: 수정 상태 종료
 # :wq
 ```
+
+### 원격 저장소 git에 등록
+```bash
+$ git remote add {remote_nickname} {remote_url}
+```
+
+### 원격 저장소에 업로드
+```bash
+$ git push origin master
+```
+
+### 원격 저장소에 있는 내용 복제
+- 최초로 내려 받을 때
+```bash
+$ git clone repository_url
+```
