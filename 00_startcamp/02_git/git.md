@@ -37,3 +37,13 @@ $ git config --global --list
 ```bash
 $ git log
 ```
+
+### 직전 커밋 수정하기
+```bash
+$ git commit --amend
+# vim에서 커밋 내용 수정하기 
+# 1. insert를 눌러서 - 삽입 상태로 만든다.
+# 2. 커밋 메시지를 수정한다.
+# 3. esc를 눌러서 - 삽입 상태를 종료한다.
+# 4. :wq 를 입력해서 저장하고 종료한다.
+```
